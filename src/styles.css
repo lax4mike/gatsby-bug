@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+#___gatsby,
+#___gatsby > div[role="group"] {
+  min-height: 100vh;
+}
+
+#___gatsby > div[role="group"] {
+  display: flex;
+  align-items: stretch;
+}
+
+.container {
+  flex: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container--large {
+  background-color: #3498db;
+  font-size: 40px;
+}
+
+.container--small {
+  background-color: #2ecc71;
+}
